@@ -1,0 +1,40 @@
+title: Yohan Cha
+description: Scientific Machine Learning & Computational Fluid Dynamics
+# Comment out url when working locally to resolve base urls correctly
+url: https://powerfulsmooth.github.io
+
+# Owner/author information
+owner:
+  name: Yohan Cha
+  avatar: profile.png
+  email: koffgg@gmail.com
+  # Social networking links are used in the author-bio sidebar.
+  github: powerfulsmooth
+  scholar: https://scholar.google.com/citations?user=FL6y8Y8AAAAJ
+
+# Links to include in top navigation
+links:
+  - title: About Me
+    url: /
+  - title: Publications
+    url: /publications/
+  - title: Projects
+    url: /projects/
+  - title: Awards
+    url: /awards/
+
+timezone: Asia/Seoul
+future: true
+highlighter: rouge
+
+permalink: /:categories/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less"]
