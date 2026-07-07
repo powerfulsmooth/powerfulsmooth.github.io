@@ -8,7 +8,7 @@ I am a researcher in Mechanical Engineering focusing on **Scientific Machine Lea
 
 ## Research Interests
 
-My interests lie at the intersection of **machine learning and computational physics**. In particular, I am interested in combining **multi-physics** analysis (turbulence, phase transition, and reacting flows) with **AI approaches** (such as PINNs and operator learning) to extend the practicality and generality of these technologies.
+My interests lie at the intersection of **Artificial Intelligence and computational physics**. In particular, I am interested in combining **multi-physics** analysis (turbulence, phase transition, and reacting flows) with **AI approaches** (such as PINNs and operator learning) to extend the practicality and generality of these technologies.
 
 ## News and Updates
 - **Sep 2025:** Concluded my role as CFD Research Engineer at SK Innovation.
