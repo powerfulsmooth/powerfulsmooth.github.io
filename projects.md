@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /projects/index.html
-title: Projects
+title: Professional Experience
 ---
 
-# Research Projects
+# Professional Experience
 
 #### ■ Single Wall Carbon Nanotube (SWCNT) Reactor Scale-Up &nbsp;·&nbsp; *SK Innovation*
 
