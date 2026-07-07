@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-I am a researcher in Mechanical Engineering focusing on **Scientific Machine Learning** and **Computational Fluid Dynamics (CFD)**, and I am currently preparing to pursue a Ph.D. Most recently I worked as a **CFD Research Engineer at SK Innovation**, a South Korean oil-refining and energy company. Previously, at the Department of Mechanical Engineering, Inha University, I studied the storage, purification, and utilization efficiency of hydrogen, advised by **Prof. Hyunchul Ju**.
+I am a researcher in Mechanical Engineering focusing on **Scientific Machine Learning** and **Computational Fluid Dynamics (CFD)**, and I am currently preparing to pursue a Ph.D. Most recently I worked as a **CFD Research Engineer at SK Innovation**, a South Korean oil-refining and energy company. Previously, at the Department of Mechanical Engineering, Inha University, I studied the storage, purification, and utilization efficiency of hydrogen, advised by [**Prof. Hyunchul Ju**](http://espl.inha.ac.kr/).
 
 ## Research Interests
 
