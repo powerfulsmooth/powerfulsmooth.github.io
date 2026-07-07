@@ -6,30 +6,28 @@ title: Professional Experience
 
 # Professional Experience
 
-#### ■ Single Wall Carbon Nanotube (SWCNT) Reactor Scale-Up &nbsp;·&nbsp; *SK Innovation*
+## SK Innovation
 
-Stabilized the lab-scale reactor process for SWCNT battery-material synthesis, extending equipment operating time by 6× and scaling it up to commercial scale. Analyzed internal flow and temperature distribution as functions of gas flow rate, reactor geometry, and furnace heating under high temperatures (>1300 °C), implementing NIST-based thermal properties of H₂/N₂, species transport, and Discrete Ordinates (DO) radiation models in ANSYS Fluent.
+**CFD Research Engineer** &nbsp;·&nbsp; *Jan 2023 – Sep 2025*
 
-<br>
+Used CFD to analyze turbulence, mixing, chemical reactions, phase change, and multiphase flows arising in refining, petrochemical, and battery-manufacturing processes — improving process efficiency and diagnosing the root causes of failures.
 
-#### ■ Polymer Autoclave Reactor Scale-Up &nbsp;·&nbsp; *SK Innovation*
+- Single Wall Carbon Nanotube (SWCNT) Reactor Scale-Up
+- Polymer Autoclave Reactor Scale-Up
+- Three-Phase Transition Analysis in Refinery Process Piping
 
-Derived a scale-up design (reactor and impeller geometry) for a high-pressure (>1300 bar) autoclave reactor to increase ethylene-acrylic acid (EAA) production. Established scale-up criteria by analyzing free-radical copolymerization, impeller-induced fluid behavior, and reaction heat, modeling the polymerization (mass and heat conservation) with custom User-Defined Functions (UDFs) and impeller mixing via the Multiple Reference Frame (MRF) approach in ANSYS Fluent.
+## Doosan Mobility Innovation
 
-<br>
+**Fuel Cell Research Engineer** &nbsp;·&nbsp; *Apr 2022 – Dec 2022*
 
-#### ■ Three-Phase Transition Analysis in Refinery Process Piping &nbsp;·&nbsp; *SK Innovation*
+Designed and analyzed air-cooled PEMFC flow fields and cooling channels for commercial-drone applications using 3D CFD simulation.
 
-Evaluated the feasibility of a new water-injection quill in Uni-cracking (UC) process piping, contributing to a 2× increase in process profitability. Analyzed three-phase transitions among liquid water, oil, and gas under high pressure (>150 bar) using a Raoult's-law-based formulation, implemented with Eulerian multiphase modeling in ANSYS Fluent.
+- Air-Cooled Fuel Cell Flow-Field Design for Commercial Drones
 
-<br>
+## Inha University · Eco-Smart Power Lab
 
-#### ■ Air-Cooled Fuel Cell Flow-Field Design for Commercial Drones &nbsp;·&nbsp; *Doosan Mobility Innovation*
+**Graduate Research Assistant** &nbsp;·&nbsp; *2020 – 2022*
 
-Designed anode/cathode flow fields and cooling channels for air-cooled PEMFCs targeting commercial drones. Improved water-removal efficiency over the reference design and achieved a 10% improvement in cooling efficiency by eliminating cooling dead zones, using a 3D PEMFC model in ANSYS Fluent capturing H₂/O₂ flow, electrochemical reactions, and water/vapor two-phase transport.
+Developed AI-based surrogate models integrated with CFD for the optimal design of PEMFC flow fields.
 
-<br>
-
-#### ■ AI-Based Fuel Cell Flow-Field Optimization Platform &nbsp;·&nbsp; *Inha University (Eco-Smart Power Lab)*
-
-Developed an end-to-end optimal-design platform integrating data-driven surrogate models (Kriging, RSA, Multi-Layer Perceptron) with CFD. Implemented the full Python pipeline — DOE (Latin Hypercube Sampling) → PEMFC CFD simulation → surrogate training → optimal-point selection via Genetic Algorithm. Findings were published in the *Journal of The Electrochemical Society*.
+- AI-Based Fuel Cell Flow-Field Optimization Platform
