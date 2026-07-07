@@ -6,9 +6,7 @@ title: Publications
 
 # Publications
 
-<p style="text-indent:0;">(† Equal contribution. My name is in <b>bold</b>. A full list is available on my <a href="https://scholar.google.com/citations?user=FL6y8Y8AAAAJ">Google Scholar</a>.)</p>
-
-- Multi-Variate Optimization of Polymer Electrolyte Membrane Fuel Cells in Consideration of Effects of GDL Compression and Intrusion (doi: [10.1149/1945-7111/ac492f](https://doi.org/10.1149/1945-7111/ac492f))<br>Jaeyoo Choi†, **Yohan Cha†**, Jaeyoung Kong, Nelson Vaz, Jaeman Lee, Sang-Bum Ma, Jin-Hyeok Kim, Seung Woo Lee, Sang Soon Jang, Hyunchul Ju<br>*Journal of The Electrochemical Society*, 169(1), 014511 (2022).
+- Multi-Variate Optimization of Polymer Electrolyte Membrane Fuel Cells in Consideration of Effects of GDL Compression and Intrusion (doi: [10.1149/1945-7111/ac492f](https://doi.org/10.1149/1945-7111/ac492f))<br>Jaeyoo Choi, **Yohan Cha** (co-first author), Jaeyoung Kong, Nelson Vaz, Jaeman Lee, Sang-Bum Ma, Jin-Hyeok Kim, Seung Woo Lee, Sang Soon Jang, Hyunchul Ju<br>*Journal of The Electrochemical Society*, 169(1), 014511 (2022).
 
 - Probing the influence of nonuniform Pt particle size distribution using a full three-dimensional, multiscale, multiphase polymer electrolyte membrane fuel cell model (doi: [10.1016/j.electacta.2021.139811](https://doi.org/10.1016/j.electacta.2021.139811))<br>Jaeyoo Choi, Eunsoo Kim, **Yohan Cha**, Mohsen Ghasemi, Hyunchul Ju<br>*Electrochimica Acta*, 405, 139811 (2022).
 
