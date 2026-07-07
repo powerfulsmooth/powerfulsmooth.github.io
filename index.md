@@ -4,16 +4,15 @@ layout: page
 
 # About Me
 
-I am a researcher in **Mechanical Engineering** focusing on **Scientific Machine Learning** and **Computational Fluid Dynamics (CFD)**, and I am currently preparing to pursue a Ph.D. Most recently I worked as a **CFD Research Engineer at SK Innovation**, where I built physics-based simulation models for reactor scale-up across refining, petrochemicals, and battery-material manufacturing. At the Department of Mechanical Engineering, **Inha University**, I conducted CFD-based research on the optimal design of fuel-cell flow fields, advised by **Prof. Hyunchul Ju**.
+I am a researcher in Mechanical Engineering focusing on **Scientific Machine Learning** and **Computational Fluid Dynamics (CFD)**, and I am currently preparing to pursue a Ph.D. Most recently I worked as a **CFD Research Engineer at SK Innovation**, a South Korean oil-refining and energy company. Previously, at the Department of Mechanical Engineering, Inha University, I studied the storage, purification, and utilization efficiency of hydrogen, advised by **Prof. Hyunchul Ju**.
 
 ## Research Interests
 
-My interests lie at the intersection of **machine learning and computational physics**: physics-informed and data-driven modeling, uncertainty quantification, and surrogate-based optimization for CFD problems spanning **turbulence, multiphase, and reacting flows**, as well as **dynamical systems**. I am motivated by models that combine first-principles physics with modern ML to make high-fidelity simulation faster, more reliable, and more interpretable.
+My interests lie at the intersection of **machine learning and computational physics**. In particular, I am interested in combining **multi-physics** analysis (turbulence, phase transition, and reacting flows) with **AI approaches** (such as PINNs and operator learning) to extend the practicality and generality of these technologies.
 
 ## News and Updates
-- **Jan 2026:** Scored 100 on the TOEFL iBT.
 - **Sep 2025:** Concluded my role as CFD Research Engineer at SK Innovation.
-- **2023:** Co-authored a paper in the *Journal of Energy Chemistry* on multi-objective optimization of PEMFC cathode catalyst layers using data-driven surrogates.
+- **June 2023:** Co-authored a paper in the *Journal of Energy Chemistry* on multi-objective optimization of PEMFC cathode catalyst layers using data-driven surrogates.
 - **Jan 2023:** Joined **SK Innovation** as a CFD Research Engineer.
 - **Dec 2022:** Completed air-cooled fuel-cell flow-field design work at Doosan Mobility Innovation.
 - **Aug 2022:** Received my **M.S. in Mechanical Engineering** from Inha University.
