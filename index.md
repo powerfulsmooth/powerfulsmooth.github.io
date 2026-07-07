@@ -4,11 +4,7 @@ layout: page
 
 # About Me
 
-<img src="/images/profile.png" class="floatpic" width="360" height="480">
-
-Here is **Yohan Cha (차요한)**.
-
-I am a researcher in **Mechanical Engineering** focusing on **Scientific Machine Learning** and **Computational Fluid Dynamics (CFD)**, and I am currently preparing to pursue a Ph.D. Most recently I worked as a **CFD Research Engineer at SK Innovation**, where I built physics-based simulation models for reactor scale-up across refining, petrochemicals, and battery-material manufacturing. I earned my **M.S. in Mechanical Engineering (Thermal & Fluid Engineering)** from **Inha University**, advised by **Prof. Hyunchul Ju** at the Eco-Smart Power Lab.
+I am a researcher in **Mechanical Engineering** focusing on **Scientific Machine Learning** and **Computational Fluid Dynamics (CFD)**, and I am currently preparing to pursue a Ph.D. Most recently I worked as a **CFD Research Engineer at SK Innovation**, where I built physics-based simulation models for reactor scale-up across refining, petrochemicals, and battery-material manufacturing. At the Department of Mechanical Engineering, **Inha University**, I conducted CFD-based research on the optimal design of fuel-cell flow fields, advised by **Prof. Hyunchul Ju**.
 
 ## Research Interests
 
