@@ -68,12 +68,19 @@
 
 <!-- ===== Custom overrides (Yohan Cha) ===== -->
 <style>
-/* 1) Content column width — moderate whitespace; keep name/photo/nav aligned (>=600px) */
+/* 0) Sticky footer — keep the black footer band pinned to the bottom on tall screens */
+html,body{height:auto;}
+body{display:flex; flex-direction:column; min-height:100vh;}
+#main{flex:1 0 auto;}
+.navigation-wrapper,.footer-wrap{flex-shrink:0;}
+
+/* 1) Content column — capped max-width + centered (balanced on large monitors, fills laptops) */
 @media only screen and (min-width:37.5em){
-  #main article{width:55% !important; margin-left:2% !important; margin-right:0 !important;}
-  .article-author-top{width:16% !important; margin-left:12% !important; margin-right:0 !important;}
-  .site-name{width:16% !important; margin-left:12% !important; margin-right:0 !important; white-space:nowrap;}
-  .top-navigation{width:55% !important; margin-left:2% !important; margin-right:0 !important;}
+  .navigation-wrapper,#main{max-width:1150px !important; width:100% !important; margin-left:auto !important; margin-right:auto !important; box-sizing:border-box;}
+  #main article{width:78% !important; margin-left:4% !important; margin-right:0 !important;}
+  .article-author-top{width:18% !important; margin-left:0 !important; margin-right:0 !important;}
+  .site-name{width:18% !important; margin-left:0 !important; margin-right:0 !important; white-space:nowrap;}
+  .top-navigation{width:78% !important; margin-left:4% !important; margin-right:0 !important;}
 }
 /* 2) Publication figure rows: side-by-side, scale with zoom, stack only on mobile.
       3) Card-style frame (rounded corners + soft shadow) around figures. */
