@@ -14,11 +14,12 @@ title: Professional Experience
 
 Used CFD to analyze turbulence, mixing, chemical reactions, phase change, and multiphase flows arising in refining, petrochemical, and battery-manufacturing processes — improving process efficiency and diagnosing the root causes of failures.
 
-<p style="text-indent:0;margin:10px 0 2px;"><strong>Representative projects — reactor scale-up and multiphase process analysis:</strong></p>
-
-- Single Wall Carbon Nanotube (SWCNT) Reactor Scale-Up
-- Polymer Autoclave Reactor Scale-Up
-- Three-Phase Transition Analysis in Refinery Process Piping
+<p style="text-indent:0;margin:12px 0 0;"><strong>Representative projects — reactor scale-up and multiphase process analysis:</strong></p>
+<ul style="margin-top:2px;">
+<li>Single Wall Carbon Nanotube (SWCNT) Reactor Scale-Up</li>
+<li>Polymer Autoclave Reactor Scale-Up</li>
+<li>Three-Phase Transition Analysis in Refinery Process Piping</li>
+</ul>
 
 ## Doosan Mobility Innovation
 
@@ -26,6 +27,7 @@ Used CFD to analyze turbulence, mixing, chemical reactions, phase change, and mu
 
 Designed and analyzed air-cooled PEMFC flow fields and cooling channels for commercial-drone applications using 3D CFD simulation.
 
-<p style="text-indent:0;margin:10px 0 2px;"><strong>Representative project — fuel-cell flow-field design:</strong></p>
-
-- Air-Cooled Fuel Cell Flow-Field Design for Commercial Drones
+<p style="text-indent:0;margin:12px 0 0;"><strong>Representative projects — fuel cell development:</strong></p>
+<ul style="margin-top:2px;">
+<li>Air-Cooled Fuel Cell Flow-Field Design for Commercial Drones</li>
+</ul>
