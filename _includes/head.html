@@ -77,10 +77,10 @@
 }
 /* 2) Publication figure rows: side-by-side, scale with zoom, stack only on mobile.
       3) Card-style frame (rounded corners + soft shadow) around figures. */
-.pubfig-row{display:flex; flex-wrap:nowrap; gap:20px; align-items:center; margin:16px 0; max-width:880px;}
-.pubfig-row img{min-width:0; height:auto; display:block; border-radius:5px; box-shadow:0 3px 10px rgba(0,0,0,0.18);}
+.pubfig-row{display:flex; flex-wrap:nowrap; gap:20px; align-items:center; margin:18px 0; max-width:920px; padding:18px 20px; background:#fff; border-radius:8px; box-shadow:0 3px 12px rgba(0,0,0,0.16); box-sizing:border-box;}
+.pubfig-row img{min-width:0; height:auto; display:block;}
 @media (max-width:700px){
-  .pubfig-row{flex-wrap:wrap; gap:16px; justify-content:center; max-width:100%;}
+  .pubfig-row{flex-wrap:wrap; gap:16px; justify-content:center; max-width:100%; padding:14px;}
   .pubfig-row img{flex:none !important; width:auto; max-width:100%; max-height:220px;}
 }
 </style>
