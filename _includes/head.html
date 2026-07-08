@@ -68,26 +68,29 @@
 
 <!-- ===== Custom overrides (Yohan Cha) ===== -->
 <style>
-/* 0) Sticky footer — keep the black footer band pinned to the bottom on tall screens */
-html,body{height:auto;}
-body{display:flex; flex-direction:column; min-height:100vh;}
-#main{flex:1 0 auto;}
-.navigation-wrapper,.footer-wrap{flex-shrink:0;}
+/* 0) Remove the black footer band entirely */
+.footer-wrap{display:none !important;}
 
-/* 1) Content column — capped max-width + centered (balanced on large monitors, fills laptops) */
+/* 1) Fluid scaling — the whole (em/rem-based) design grows/shrinks with the screen,
+      keeping every proportion identical. Bounded so ultrawide screens don't over-grow. */
+html{font-size:clamp(16px, 10.3px + 0.54vw, 26px) !important;}
+
+/* 2) Content column — same ratio as before; max-width in rem so it scales with the root font */
 @media only screen and (min-width:37.5em){
-  .navigation-wrapper,#main{max-width:1150px !important; width:100% !important; margin-left:auto !important; margin-right:auto !important; box-sizing:border-box;}
+  .navigation-wrapper,#main{max-width:64rem !important; width:100% !important; margin-left:auto !important; margin-right:auto !important; box-sizing:border-box;}
   #main article{width:78% !important; margin-left:4% !important; margin-right:0 !important;}
   .article-author-top{width:18% !important; margin-left:0 !important; margin-right:0 !important;}
   .site-name{width:18% !important; margin-left:0 !important; margin-right:0 !important; white-space:nowrap;}
   .top-navigation{width:78% !important; margin-left:4% !important; margin-right:0 !important;}
 }
-/* 2) Publication figure rows: side-by-side, scale with zoom, stack only on mobile.
-      3) Card-style frame (rounded corners + soft shadow) around figures. */
-.pubfig-row{display:flex; flex-wrap:nowrap; gap:20px; align-items:center; margin:18px 0; max-width:920px; padding:18px 20px; background:#fff; border-radius:8px; box-shadow:0 3px 12px rgba(0,0,0,0.16); box-sizing:border-box;}
+/* keep the profile photo inside the sidebar column on any width */
+.article-author-top img,.bio-photo{max-width:100% !important;}
+
+/* 3) Publication figure rows: side-by-side; frame sizes in rem so they scale with the design */
+.pubfig-row{display:flex; flex-wrap:nowrap; gap:1.1rem; align-items:center; margin:1rem 0; max-width:51rem; padding:1rem 1.15rem; background:#fff; border-radius:0.45rem; box-shadow:0 3px 12px rgba(0,0,0,0.16); box-sizing:border-box;}
 .pubfig-row img{min-width:0; height:auto; display:block;}
 @media (max-width:700px){
-  .pubfig-row{flex-wrap:wrap; gap:16px; justify-content:center; max-width:100%; padding:14px;}
+  .pubfig-row{flex-wrap:wrap; gap:1rem; justify-content:center; max-width:100%; padding:0.9rem;}
   .pubfig-row img{flex:none !important; width:auto; max-width:100%; max-height:220px;}
 }
 </style>
