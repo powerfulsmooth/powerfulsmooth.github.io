@@ -29,5 +29,6 @@ Designed and analyzed air-cooled PEMFC flow fields and cooling channels for comm
 
 <p style="text-indent:0;margin:12px 0 0;"><strong>Representative projects — fuel cell development:</strong></p>
 <ul style="margin-top:2px;">
-<li>Air-Cooled Fuel Cell Flow-Field Design for Commercial Drones</li>
+<li>Air-Cooled Fuel Cell Cathode Flow-Field Design for Commercial Drones</li>
+<li>Air-Cooling Channel Design for a Drone PEMFC Stack</li>
 </ul>
