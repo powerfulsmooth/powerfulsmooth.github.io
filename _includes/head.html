@@ -94,3 +94,31 @@ html{font-size:clamp(16px, 10.3px + 0.54vw, 26px) !important;}
   .pubfig-row img{flex:none !important; width:auto; max-width:100%; max-height:220px;}
 }
 </style>
+
+<!-- ===== Visitor tracker (per-professor via ?ref=; no cookies, no personal data) ===== -->
+<script>
+(function () {
+  var ENDPOINT = "https://script.google.com/macros/s/AKfycbwJJkDrNS6EN-HGlh4x1IBuxUazBR7osGPYKXiOilt-krWbbG1lqG7Ht12BI6xAaGXM/exec";
+  if (!ENDPOINT || ENDPOINT.indexOf("http") !== 0) return;
+  function qs(name){ var m=new RegExp("[?&]"+name+"=([^&]*)").exec(location.search); return m?decodeURIComponent(m[1].replace(/\+/g," ")):null; }
+  var ref = qs("ref") || qs("utm_campaign");
+  try { if(ref) localStorage.setItem("vref", ref); ref = localStorage.getItem("vref") || "(direct)"; } catch(e){ ref = ref || "(direct)"; }
+  var vid;
+  try { vid = localStorage.getItem("vvid"); if(!vid){ vid="v"+Date.now().toString(36)+Math.random().toString(36).slice(2,7); localStorage.setItem("vvid", vid); } } catch(e){ vid="v"+Math.random().toString(36).slice(2,9); }
+  function send(p){ p.ref=ref; p.visitor=vid; p.url=location.href; try{ var b=JSON.stringify(p); if(navigator.sendBeacon) navigator.sendBeacon(ENDPOINT,b); else fetch(ENDPOINT,{method:"POST",body:b,keepalive:true,mode:"no-cors"}); }catch(e){} }
+  var start=Date.now(), page=location.pathname, referrer=document.referrer||"";
+  send({event:"pageview", page:page, label:"enter", dwell:0, paper:"", referrer:referrer});
+  var sent=false;
+  function sendDwell(){ if(sent) return; sent=true; send({event:"dwell", page:page, label:"leave", dwell:Math.round((Date.now()-start)/1000), paper:"", referrer:referrer}); }
+  document.addEventListener("visibilitychange", function(){ if(document.visibilityState==="hidden") sendDwell(); });
+  window.addEventListener("pagehide", sendDwell);
+  document.addEventListener("click", function(ev){
+    var a = ev.target.closest && ev.target.closest("a.pub-badge");
+    if(!a) return;
+    var label=(a.textContent||"").trim();
+    var li=a.closest("li"); var t=li&&li.querySelector("strong");
+    var paper=t?t.textContent.trim().slice(0,90):"";
+    send({event:"click", page:page, label:label, dwell:Math.round((Date.now()-start)/1000), paper:paper, referrer:a.href||""});
+  }, true);
+})();
+</script>
