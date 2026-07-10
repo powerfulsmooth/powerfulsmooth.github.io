@@ -101,8 +101,10 @@ html{font-size:clamp(16px, 10.3px + 0.54vw, 26px) !important;}
   var ENDPOINT = "https://script.google.com/macros/s/AKfycbwJJkDrNS6EN-HGlh4x1IBuxUazBR7osGPYKXiOilt-krWbbG1lqG7Ht12BI6xAaGXM/exec";
   if (!ENDPOINT || ENDPOINT.indexOf("http") !== 0) return;
   function qs(name){ var m=new RegExp("[?&]"+name+"=([^&]*)").exec(location.search); return m?decodeURIComponent(m[1].replace(/\+/g," ")):null; }
-  var ref = qs("ref") || qs("utm_campaign");
-  try { if(ref) localStorage.setItem("vref", ref); ref = localStorage.getItem("vref") || "(direct)"; } catch(e){ ref = ref || "(direct)"; }
+  var codeParam = qs("ref") || qs("v") || qs("utm_campaign"), ref;
+  try { if(codeParam) localStorage.setItem("vref", codeParam); ref = localStorage.getItem("vref") || "(direct)"; } catch(e){ ref = codeParam || "(direct)"; }
+  // scrub the tracking code out of the address bar the instant we land (no visible trace)
+  if (codeParam && window.history && history.replaceState) { try { history.replaceState(null, document.title, location.pathname + location.hash); } catch(e){} }
   var vid;
   try { vid = localStorage.getItem("vvid"); if(!vid){ vid="v"+Date.now().toString(36)+Math.random().toString(36).slice(2,7); localStorage.setItem("vvid", vid); } } catch(e){ vid="v"+Math.random().toString(36).slice(2,9); }
   function send(p){ p.ref=ref; p.visitor=vid; p.url=location.href; try{ var b=JSON.stringify(p); if(navigator.sendBeacon) navigator.sendBeacon(ENDPOINT,b); else fetch(ENDPOINT,{method:"POST",body:b,keepalive:true,mode:"no-cors"}); }catch(e){} }
